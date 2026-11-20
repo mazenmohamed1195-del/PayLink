@@ -2,6 +2,33 @@ PayLink – AI Prompt Log
 
 Entry 1 – Understanding the Project Requirements
 
+Entry 2 – Generating the First Five User Stories
+
+Task: Convert the first five functional requirements (FR-1 to FR-5) into user stories with acceptance criteria.
+
+Prompt:
+
+"Using the PayLink project brief, convert FR-1 to FR-5 into user stories. Each story should include a title, priority, user story using the As a / I want / So that format, and acceptance criteria using Given / When / Then."
+
+AI Output:
+
+AI generated five user stories covering:
+
+1. Customer registration.
+2. Customer verification upgrade.
+3. Viewing wallet information.
+4. Wallet top-up.
+5. Wallet ledger recording.
+
+Each story included its priority and acceptance criteria.
+
+Team Review:
+
+The generated stories were reviewed against the original functional requirements in the project brief.
+
+Decision / Correction:
+
+The team will use these five stories as the initial draft and review them before implementation. The stories must preserve the original requirements and priorities.
 Task: Understand how to start the requirements analysis.
 
 Prompt:
