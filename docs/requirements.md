@@ -37,6 +37,80 @@ PayLink Management| Monitors the system and business operations.
 
 This section will contain the system's user stories and their acceptance criteria.
 
+3. Functional Requirements
+
+US-01: Customer Registration
+
+Priority: Must
+
+User Story:
+
+As a customer, I want to register for a PayLink account so that I can use the bill payment services.
+
+Acceptance Criteria:
+
+- Given I am a new customer.
+- When I submit the required registration information.
+- Then the system creates my account and assigns the basic verification level.
+
+US-02: Customer Verification Upgrade
+
+Priority: Should
+
+User Story:
+
+As a basic customer, I want to upgrade my verification level so that I can benefit from higher payment limits.
+
+Acceptance Criteria:
+
+- Given I have a basic PayLink account.
+- When I complete the required verification process and it is approved.
+- Then my account is upgraded to verified and receives the higher payment limits.
+
+US-03: View Wallet Information
+
+Priority: Must
+
+User Story:
+
+As a customer, I want to view my available balance, held balance, and transaction history so that I can track my money.
+
+Acceptance Criteria:
+
+- Given I have a PayLink account and wallet.
+- When I request my wallet information.
+- Then the system displays my available balance, held balance, and transaction history.
+
+US-04: Wallet Top-Up
+
+Priority: Must
+
+User Story:
+
+As a customer, I want to add money to my wallet using a simulated card payment or agent cash so that I can pay my bills.
+
+Acceptance Criteria:
+
+- Given I have an active PayLink wallet.
+- When a valid top-up is completed through a simulated card or agent cash.
+- Then the system adds the amount to my wallet.
+
+US-05: Wallet Ledger Recording
+
+Priority: Must
+
+User Story:
+
+As a PayLink system, I need to record every wallet balance change in the ledger so that wallet balances can be calculated accurately.
+
+Acceptance Criteria:
+
+- Given a wallet balance is changed by a transaction.
+- When the transaction is successfully processed.
+- Then the system creates a corresponding ledger entry and calculates the wallet balance from its ledger entries.
+
+
+
 4. Non-Functional Requirements
 
 This section will describe measurable quality requirements, such as performance, security, reliability, and testability.
